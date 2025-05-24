@@ -1,6 +1,3 @@
-Here’s a consolidated summary of your progress so far — combining **Day 1 and Day 2** efforts on your MLOps/DSA learning journey:
-
----
 
 ## ✅ **Day 1: Kickoff – Project Setup & Problem 1 (Two Pointers)**
 
@@ -76,8 +73,3 @@ Here’s a consolidated summary of your progress so far — combining **Day 1 an
 | Keep pushing commits to Git regularly       | ✅ Ongoing |
 | Automate reminders (optional)               | ⏳         |
 
----
-
-Let me know when you're ready to pick up **Day 2’s problem**, or want to go further with **automation, CI/CD, or deeper Git branching**.
-
-You're building a strong foundation — well done! 💪
