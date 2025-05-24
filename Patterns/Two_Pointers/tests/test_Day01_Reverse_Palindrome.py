@@ -1,5 +1,5 @@
 import unittest
-from Solution.Day01_reverse_palindrome_string import reverse_string, palindrome_ornot
+from Patterns.Two_Pointers.Solution.Day01_reverse_palindrome_string import reverse_string, palindrome_ornot
 
 
 class TestReversePalindromestring(unittest.TestCase):
