@@ -8,12 +8,27 @@ def matsum_fromarray(i_nums, t_sum):
     while left < right:
         calc_sum = i_nums[left] + i_nums[right]
         if calc_sum == t_sum:
-            return [left+1, right+1]
+            return left + 1, right + 1
         elif calc_sum < t_sum:
             left += 1
         else:
             right -= 1
-    return []
+    return "No match"
+
+
+def matsum_fromarray_allmatches(i_nums, t_sum):
+    left, right, m_indices = 0, len(i_nums) - 1, []
+    while left < right :
+        calc_sum = i_nums[left] + i_nums[right]
+        if calc_sum == t_sum:
+            m_indices.append((left+1, right+1))
+            left += 1
+            right -=1
+        elif calc_sum < t_sum:
+            left += 1
+        else:
+            right -= 1
+    return m_indices
 
 
 if __name__ == "__main__":
@@ -21,5 +36,8 @@ if __name__ == "__main__":
     input_nums = list(map(int, input_str.split(",")))
     target_sum = input("Enter target sum")
     match_index = matsum_fromarray(list(input_nums),int(target_sum))
-    print(match_index)
+    print("First match index is ", match_index)
+    match_index = matsum_fromarray_allmatches(list(input_nums), int(target_sum))
+    print("All match indices are ", match_index)
+
 
