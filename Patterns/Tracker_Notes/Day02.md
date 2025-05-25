@@ -1,38 +1,54 @@
-**Start time:** 15:34
+---
+
+### ✅ **DSA + CI/CD Daily Learning Summary (Day 2)**
+
+🕒 **Session Start:** 15:32
+🕒 **Session End:** 16:28
+⏱ **Total Duration:** 56 minutes
 
 ---
 
-### Part 1: DSA Concept (Time Complexity)
+### 🧠 Part 1: DSA Concept – **Time Complexity**
 
-* Duration: \~10–15 minutes (ended before 15:50)
-* Activities:
+* ✅ Reviewed time complexity of loops
+* ✅ Clarified common misunderstandings (e.g., why `for j in range(i, n)` results in roughly `n²`/2 iterations)
+* ✅ Summarized complexity notations (Big O)
+* 🔁 Set up to start **Space Complexity** concept tomorrow
 
-  * Discussed time complexity, inner loop reasoning, visualized O(n/2) explanation
-  * Summarized key points on time complexity
-
----
-
-### Part 2: Problem Solving (Two Sum II)
-
-* Duration: 54 minutes (15:34 to 16:28)
-* Activities:
-
-  * You wrote initial code for Two Sum II
-  * Reviewed your code’s shortcomings
-  * Discussed correct two-pointer logic
-  * You got the solution and stopped timer
+🕒 **Duration:** \~18 minutes
 
 ---
 
-### Total Time Spent (Parts 1 & 2):
+### 💻 Part 2: Solving DSA Problem – **Two Pointers #2**
 
-Approximately **1 hour** (15:34 to 16:28)
+* ✅ Selected and solved "Two Sum" (adjacent sum variant)
+* ✅ Identified and corrected issues in initial logic
+* ✅ Wrote complete solution
+* ✅ Identified need to support multiple matches (to-do)
+* ✅ Time captured: **15:50 to 16:28** (including fix and test discussion)
+
+🕒 **Duration:** \~38 minutes
 
 ---
 
-### Next Steps Planned:
+### ☁️ Part 3: CI/CD Integration – **GitHub Actions Setup**
 
-* Handle multiple matches in Two Sum problem
-* Add test cases (unit testing)
-* Commit code to Git
-* Start Part 3 (Cloud / CI-CD concepts)
+* ✅ Created `.github/workflows` directory
+* ✅ Wrote GitHub Actions YAML file
+* ✅ Integrated Pytest
+* ✅ Ran and passed automated tests on GitHub
+* ✅ Clarified key Git terms:
+
+  * Remote repository
+  * Origin
+  * Pull Request (PR)
+* ✅ Successfully created a Pull Request to test pipeline automation
+
+🕒 **Duration:** \~10 minutes (overlapped with DSA solving at end)
+
+---
+
+### 📌 Outstanding / To-Do:
+
+* Begin Space Complexity tomorrow
+* Continue solving problems #3–#10 in Two Pointers pattern
