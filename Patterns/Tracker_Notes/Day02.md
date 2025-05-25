@@ -1,5 +1,3 @@
-Great work today! Here's your **Day 2 Summary** based on our structured plan:
-
 ---
 
 ### ✅ **DSA + CI/CD Daily Learning Summary (Day 2)**
